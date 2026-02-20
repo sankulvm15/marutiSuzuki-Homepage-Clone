@@ -16,9 +16,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 0px 56px;
-    /* background-color: white; */
     box-shadow: 1px 0px 3px rgb(66, 65, 65);
-    /* border-bottom: 1px solid black; */
 }
 
 header nav .navCenter ul,
@@ -68,7 +66,6 @@ main .sectionTwo .sectionTwoCards .card {
     width: 40%;
     padding: 40px 0px;
     margin: 16px;
-    /* border: 1px solid rgb(217, 213, 213); */
     height: 40rem;
 }
 
@@ -109,7 +106,6 @@ main .sectionTwo .sectionTwoCards .card .cardLogo {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-bottom: 30px; */
 }
 
 main .sectionTwo .sectionTwoCards .card .cardContent {
@@ -179,7 +175,6 @@ main .sectionThree .sectionThreeCards .cardThree {
     border-top: 1px solid rgb(217, 213, 213);
     border-right: 1px solid rgb(217, 213, 213);
     border-left: 1px solid rgb(217, 213, 213);
-    /* border-bottom: 30px solid rgb(255, 208, 0); */
     height: 20rem;
 }
 
@@ -197,9 +192,7 @@ main .sectionThree .sectionThreeCards .cardThree .cardPart1,
 }
 
 main .sectionThree .sectionThreeCards .cardThree .cardPart2 {
-    /* padding: 10px; */
     position: relative;
-    /* border-bottom: 3px solid rgb(255, 204, 0); */
 }
 
 main .sectionThree .sectionThreeCards .cardThree .cardPart2Head {
@@ -239,9 +232,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
     background-size: cover;
     height: 1440px;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 30px 0px;
 }
 
@@ -252,7 +242,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
 .sectionFour .arenaCards,
 .nexaCard {
     display: flex;
-    /* justify-content: center; */
 }
 
 .sectionFour .arenaCards .arenaCard,
@@ -320,9 +309,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
 .sectionFour .ourValues .our {
     font-size: 1.5em;
     font-weight: 700;
-    /* border-top: 2px solid red; */
-    /* border-top-width: 4px; */
-    /* width: 70px; */
 }
 
 .sectionFour .ourValues .values {
@@ -346,7 +332,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
     border: none;
     padding: 8px 12px;
     font-weight: 600;
-    /* font-size: 10px */
 }
 .sectionFour .techButtons button:hover, .sectionFive button:hover{
     text-decoration: underline;
@@ -371,7 +356,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
 }
 
 .count span{
-    /* margin: 1px; */
     background-color: black;
     padding: 10px;
     color: white;
@@ -384,7 +368,6 @@ main .sectionThree .sectionThreeCards .cardThree5 {
 }
 
 footer{
-    /* height: 200px; */
     background-color: rgba(38, 38, 38, 0.955);
 }
 
