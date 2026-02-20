@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    position: sticky;
+    background-color: white;
+    top: 0px;
+}
+
+header nav {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 56px;
+    /* background-color: white; */
+    box-shadow: 1px 0px 3px rgb(66, 65, 65);
+    /* border-bottom: 1px solid black; */
+}
+
+header nav .navCenter ul,
+.navRight ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .navCenter ul li,
+.navRight ul {
+    list-style: none;
+    padding: 0px 16px;
+}
+
+header nav .navCenter ul li a:hover {
+    font-weight: bold;
+}
+
+header nav .navCenter ul li a,
+.navRight ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main .sectionTwo,
+.sectionThree {
+    padding: 20px 56px;
+}
+
+main .sectionTwo .headline1 {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(217, 213, 213);
+}
+
+
+
+main .sectionTwo .sectionTwoCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .sectionTwo .sectionTwoCards .card {
+    width: 40%;
+    padding: 40px 0px;
+    margin: 16px;
+    /* border: 1px solid rgb(217, 213, 213); */
+    height: 40rem;
+}
+
+main .sectionTwo .sectionTwoCards .card:hover {
+    width: 70%;
+    transition: all 0.8s;
+}
+
+main .sectionTwo .sectionTwoCards .card1 {
+    background-image: url("Resources/Desk-Corporate-e-Vitara-second-fold.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .sectionTwo .sectionTwoCards .card2 {
+    background-image: url("Resources/Desk-Victoris-Corporate-Second-Fold.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .sectionTwo .sectionTwoCards .card3 {
+    background-image: url("Resources/swift.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .sectionTwo .sectionTwoCards .card4 {
+    background-image: url("Resources/commercial2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 30px; */
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent {
+    height: 99%;
+    padding: 30px 25px 0px 25px;
+    opacity: 0%;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent:hover {
+    opacity: 100%;
+    transition: all 0.8s;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardHeading {
+    color: white;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardPara {
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardBtn {
+    background-color: White;
+    margin: 5px 0px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 2px black;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardBtn img {
+    padding: 0px 8px;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardBtn a {
+    color: black;
+    text-decoration: none;
+}
+
+main .sectionTwo .sectionTwoCards .card .cardContent .cardBtn:hover {
+    text-decoration: underline;
+}
+
+main .sectionThree .headline2 {
+    font-size: 1.6em;
+    font-weight: bolder;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(217, 213, 213);
+}
+
+main .sectionThree .sectionThreeCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .sectionThree .sectionThreeCards .cardThree {
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+    margin: 16px;
+    border-top: 1px solid rgb(217, 213, 213);
+    border-right: 1px solid rgb(217, 213, 213);
+    border-left: 1px solid rgb(217, 213, 213);
+    /* border-bottom: 30px solid rgb(255, 208, 0); */
+    height: 20rem;
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart1 {
+    border-bottom: 1px solid rgb(217, 213, 213);
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart1 img {
+    padding: 30px 0px 10px 0px;
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart1,
+.cardPart2 {
+    height: 50%;
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart2 {
+    /* padding: 10px; */
+    position: relative;
+    /* border-bottom: 3px solid rgb(255, 204, 0); */
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart2Head {
+    padding: 15px 0px;
+}
+
+main .sectionThree .sectionThreeCards .cardThree .cardPart2 img {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+main .sectionThree .sectionThreeCards .cardThree1 {
+    border-bottom: 5px solid rgb(255, 208, 0);
+}
+
+main .sectionThree .sectionThreeCards .cardThree2 {
+    border-bottom: 5px solid rgb(41, 27, 247);
+}
+
+main .sectionThree .sectionThreeCards .cardThree3 {
+    border-bottom: 5px solid rgb(55, 255, 45);
+}
+
+main .sectionThree .sectionThreeCards .cardThree4 {
+    border-bottom: 5px solid rgb(255, 41, 41);
+}
+
+main .sectionThree .sectionThreeCards .cardThree5 {
+    border-bottom: 5px solid rgb(255, 208, 0);
+}
+
+.sectionFour {
+    background-image: url("Resources/our-value-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 1440px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 30px 0px;
+}
+
+.sectionFour .sectionFourHeading {
+    padding: 15px;
+}
+
+.sectionFour .arenaCards,
+.nexaCard {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.sectionFour .arenaCards .arenaCard,
+.nexaCards .nexaCard {
+    margin: 20px;
+    width: 40%;
+    height: 10em;
+    padding: 15px;
+}
+
+.sectionFour .arenaCards .arenaCard1 {
+    background-image: url("Resources/alto.png");
+}
+
+.sectionFour .arenaCards .arenaCard2 {
+    background-image: url("Resources/celerio.png");
+}
+
+.sectionFour .arenaCards .arenaCard3 {
+    background-image: url("Resources/wagon-r.png");
+}
+
+.sectionFour .arenaCards .arenaCard4 {
+    background-image: url("Resources/s-presso.png");
+}
+
+.sectionFour .nexaCards .nexaCard1 {
+    background-image: url("Resources/baleno.png");
+}
+
+.sectionFour .nexaCards .nexaCard2 {
+    background-image: url("Resources/ciaz.png");
+}
+
+.sectionFour .nexaCards .nexaCard3 {
+    background-image: url("Resources/fronx.png");
+}
+
+.sectionFour .nexaCards .nexaCard4 {
+    background-image: url("Resources/Jimny.png");
+}
+
+.sectionFour .nexaCards,
+.arenaCards .arenaCard1,
+.arenaCard2,
+.arenaCard3,
+.arenaCard4,
+.nexaCard1,
+.nexaCard2,
+.nexaCard3,
+.nexaCard {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.sectionFour .ourValues {
+    margin: 100px;
+}
+
+.sectionFour .ourValues .our {
+    font-size: 1.5em;
+    font-weight: 700;
+    /* border-top: 2px solid red; */
+    /* border-top-width: 4px; */
+    /* width: 70px; */
+}
+
+.sectionFour .ourValues .values {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.sectionFour .techs img {
+    padding: 0px 20px;
+}
+
+.sectionFour .techButtons, .sectionFive .sectionFivebtn {
+    padding: 190px 0px 0px 0px;
+
+}
+
+.sectionFour .techButtons button, .sectionFive button {
+    background-color: rgb(222, 2, 2);
+    color: white;
+    margin: 5px;
+    border: none;
+    padding: 8px 12px;
+    font-weight: 600;
+    /* font-size: 10px */
+}
+.sectionFour .techButtons button:hover, .sectionFive button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sectionFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20em;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.sectionFive .sectionFiveContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.count span{
+    /* margin: 1px; */
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 3.2em;
+}
+
+.sectionFive .text{
+    padding: 15px 10px 80px 10px;
+    font-size: 1.2em;
+}
+
+footer{
+    /* height: 200px; */
+    background-color: rgba(38, 38, 38, 0.955);
+}
+
+.footerCards{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    align-items:first baseline;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px ;
+    width: 20%;
+}
+
+.card p{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card a{
+    padding: 3px 0px;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.cardOne p{
+    font-size: 24px;
+}
+
+.cardOne{
+    width: 30%;
+}
+
+.cardOne button{
+margin: 5px 0px;
+padding: 3px;
+border: none;
+border-radius: 0;
+background-color: white;
+}
+
+.cardOne button a{
+    color: black;
+}
+
+.footercontent{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footercontent p{
+    padding: 5px 15px;
+}
